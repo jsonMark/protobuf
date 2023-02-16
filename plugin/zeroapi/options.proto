@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package options.v1;
+
+option go_package = "gen/go/v1";
+
+import "google/protobuf/descriptor.proto";
+
+extend google.protobuf.ServiceOptions {
+  optional ApiOptions api_options =  50001;
+}
+
+message ApiOptions{
+  string group = 1;
+  string prefix = 2;
+}
