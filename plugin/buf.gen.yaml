@@ -3,6 +3,6 @@ managed:
   enabled: true
 plugins:
   - plugin: go
-    out: gen/go/v1
+    out: gen/go
     opt: paths=source_relative
 
