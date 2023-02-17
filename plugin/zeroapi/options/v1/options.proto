@@ -10,8 +10,17 @@ extend google.protobuf.ServiceOptions {
   optional ApiOptions api_options =  50001;
 }
 
+extend google.protobuf.MethodOptions {
+  optional ApiOptions method_options =  50001;
+}
+
+
 message ApiOptions{
   string group = 1;
   string prefix = 2;
   repeated string middleware = 3;
+}
+
+message MethodOptions{
+  repeated string except_middleware = 3;
 }
