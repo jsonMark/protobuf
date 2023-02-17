@@ -13,5 +13,5 @@ extend google.protobuf.ServiceOptions {
 message ApiOptions{
   string group = 1;
   string prefix = 2;
-  string middleware = 3;
+  repeated string middleware = 3;
 }
