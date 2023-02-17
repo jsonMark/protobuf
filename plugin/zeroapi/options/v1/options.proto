@@ -14,7 +14,6 @@ extend google.protobuf.MethodOptions {
   optional ApiOptions method_options =  50001;
 }
 
-
 message ApiOptions{
   string group = 1;
   string prefix = 2;
