@@ -22,8 +22,10 @@
 
   ⚠️：需要go-zero版本>=1.4.5 
 
-  
+  ​		 目前暂时推荐使用post方式
 
+  
+  
    使用案例 ：https://github.com/Mikaelemmmm/protoc-gen-zeroapi-demo
   
   
