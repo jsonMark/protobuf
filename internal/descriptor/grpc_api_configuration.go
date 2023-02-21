@@ -3,12 +3,12 @@ package descriptor
 import (
 	"encoding/json"
 	"fmt"
+	"gopkg.in/yaml.v3"
 	"os"
 	"strings"
 
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/descriptor/apiconfig"
+	"github.com/Mikaelemmmm/protobuf/internal/descriptor/apiconfig"
 	"google.golang.org/protobuf/encoding/protojson"
-	"gopkg.in/yaml.v3"
 )
 
 func loadGrpcAPIServiceFromYAML(yamlFileContents []byte, yamlSourceLogName string) (*apiconfig.GrpcAPIService, error) {
