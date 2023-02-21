@@ -4,7 +4,7 @@
 
 
 
-- zeroapi ：protoc-gen-zeroapi
+- protoc-gen-zeroapi
 
   概述：替代goctl生成api端代码，生成目录与文件与goctl保持一致
 
