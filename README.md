@@ -1,6 +1,6 @@
 # protobuf 插件
 
-此仓库后续会编写一系列的类似于grpc-gateway 的一些列插件
+此仓库后续会编写一系列的类似于grpc-gateway 的一系列插件
 
 
 
