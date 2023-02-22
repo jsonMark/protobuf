@@ -34,6 +34,13 @@
   
   
   
+  TODO
+  
+  - 移除google.api.http改成options中自己定义
+  - 重写生成swagger插件替换openapiv2
+  - 支持除post之外其他请求方式
+  - ....
+  
   
   
   
